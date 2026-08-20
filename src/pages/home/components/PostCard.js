@@ -63,14 +63,14 @@ export const PostCard = ({ post }) => {
 
                     {/* Description */}
                     <div className="mt-2 text-[15px] leading-5">
-                        {post.description }
+                        {description }
                     </div>
 
 
                     {/* Media */}
                     <div className="mt-3 rounded-2xl overflow-hidden">
                         <img
-                            src={post?.image }
+                            src={image }
                             alt="Post"
                             className="w-full max-h-[500px] object-cover"
                         />
